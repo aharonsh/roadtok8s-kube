@@ -28,8 +28,8 @@ jobs:
           kubectl apply -f apps/
       - name: Rollout Apps
         run: |
-          kubectl rollout restart deployment -n default py-deploy
-          kubectl rollout restart deployment -n default js-deploy
+          kubectl rollout restart deployment -n apps py-deploy
+          kubectl rollout restart deployment -n apps js-deploy
       - name: Sleep for 90 seconds
         run: |
           sleep 90
