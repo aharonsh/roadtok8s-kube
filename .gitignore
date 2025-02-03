@@ -133,4 +133,7 @@ vendordiff.patch
 
 dont-commit-this-secrets.yaml
 kubeconfig.yaml
-
+role.yaml
+role-binding.yaml
+role-secret.yaml
+kubeconfig-sa.yaml
