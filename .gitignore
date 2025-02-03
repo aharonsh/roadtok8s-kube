@@ -132,4 +132,5 @@ zz_generated_*_test.go
 vendordiff.patch
 
 dont-commit-this-secrets.yaml
+kubeconfig.yaml
 
